@@ -7,10 +7,11 @@ authors = [
     { name = "Suganya", email = "satish860@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["papershift"]
 
 [project.scripts]
 paper-shift-benchmark = "paper_shift_benchmark:main"
+pdf-to-md = "paper_shift_benchmark:main"
 
 [build-system]
 requires = ["hatchling"]

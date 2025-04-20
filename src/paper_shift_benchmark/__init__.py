@@ -1,2 +1,4 @@
+from .cli import main as cli_main
+
 def main() -> None:
-    print("Hello from paper-shift-benchmark!")
+    cli_main()
